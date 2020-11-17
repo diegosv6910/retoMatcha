@@ -165,24 +165,17 @@ main {
 
 .main_content h1 {
     font-family: 'PT Serif', serif;
-    font-weight: 400!important;
-    line-height: 63px;
-    font-size: 68px;
+    font-size: 70px;
     text-align: left;
-    letter-spacing: -3px;
     color: #025157;
-    max-width: 560px;
     margin-bottom: 24px;
 }
 
 .main_content_free_trial  > p{
-    font-style: normal;
-    font-weight: 500;
     font-size: 1.4rem;
-    line-height: 160%;
     text-align: center;
+    color: gray;
     letter-spacing: -.5px;
-    color: rgba(139,139,139,.8);
     margin-bottom: 0;
     margin-top: 15px;
 }
@@ -257,7 +250,6 @@ main {
     margin-top: 30px;
 }
 
-
 .top_features {
     display: flex;
     flex-direction: column;
@@ -281,13 +273,14 @@ main {
 
 .top-features-cards {
     display: flex;
-    width: 80px;
     text-align: center;
+    gap: 20px;
 }
 
 .top-features-cards article {
     min-width: 33.3%;
 }
+
 .feature-img {
     overflow: hidden;
     border-radius: 9px;
